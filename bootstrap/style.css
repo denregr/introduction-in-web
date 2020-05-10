@@ -1,0 +1,271 @@
+
+body{
+    background: url("images/bg.jpg") center no-repeat;
+    background-size: cover;
+}
+
+
+/* Navbar */
+.navbar{
+    background-color: black;
+}
+
+
+.navbar .navbar-brand{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.navbar .dropdown-menu {
+    background-color: #000;
+}
+
+.navbar .dropdown-menu .dropdown-item{
+    color: #e4e4e4;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover{
+    background-color: #222;
+}
+
+/* Header */
+.mainheading{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.nevskiy{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content{
+  overflow:hidden;
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+}
+.modal-content iframe {
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.row{
+    padding-bottom: 70px;
+}
+.col-sm-4{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 18rem;
+    background-color: black;
+}
+
+
+.card-body{
+    background: black;
+}
+.card-title{
+    color: #f1f1f1;
+}
+
+.card-text{
+    color: #e4e4e4;
+}
+.card-img-top{
+    height: 300px;
+}
+
+/*Training program page*/
+
+/* CONTENT */
+.body2{
+    background: url("images/bg2.jpg");
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+section .content {
+    text-align: center;
+}
+
+section .content h2 {
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section:nth-child(1) .content h2 {
+    background-image: url("images/p0.jpg");
+}
+
+section:nth-child(2) .content h2 {
+    background-image: url("images/p0.jpg");
+}
+
+section:nth-child(1) .content a {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+section:nth-child(1) {
+    background-image: url("https://c.wallhere.com/photos/6c/83/sculpture_culture_thinking_philosophy_Boxer_of_Quirinal-283522.jpg!d");
+    background-size: cover;
+}
+
+section:nth-child(2) {
+    background-image: url("https://d2hhj3gz5jljkm.cloudfront.net/134/ff752/29bd/48f1/bb75/a9246fe3ae16/original/72400.jpg");
+    background-size: cover;
+}
+
+section .content p {
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section .content .hamonuser{
+    height: 300px;
+}
+
+/* Breadcrumb */
+.container .breadcrumb{
+    background: rgba(0, 0, 0, 0.74);
+    padding: 30px;
+}
+
+/*Page 3 Sergei Story*/
+.body3Serg{
+    background: url("https://i2.yuki.la/9/dd/5c602b05edd1714e0a46bd4c0449402ad1382abb3d60970c5f525f798090fdd9.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.imagecol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gigaSerg{
+    width: 700px;
+}
+
+.SeregaText{
+    color: #f1f1f1;
+}
+@media screen and (max-width:960px) {
+    .body3Serg{
+        background: url("https://i2.yuki.la/9/dd/5c602b05edd1714e0a46bd4c0449402ad1382abb3d60970c5f525f798090fdd9.jpg") left;
+    }
+}
+
+/* Page 4 Anton histiry*/
+.body4Anton{
+    background: url("https://i.pinimg.com/736x/fe/d1/21/fed12176c808da71c375bbb1effa497f.jpg") center no-repeat;
+    background-size: cover;
+}
+
+/* Footer */
+footer{
+    background: #000;
+    background-size: cover;
+    padding: 20px;
+    color: #f1f1f1;
+}
+
+.footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.footer_logo{
+    width: 180px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    font-weight: 700;
+    color: #f1f1f1;
+}
+
+.social-media{
+    margin: 20px 0;
+}
+
+.social-media a{
+    color: #f1f1f1;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+}
+
+.social-media a:hover{
+    color: red;
+}
+
+.right-col h1{
+    font-size: 26px;
+}
+
+.border{
+    width: 300px;
+    height: 4px;
+    background: crimson;
+}
+
+@media screen and (max-width:960px) {
+    footer{
+        padding: 0;
+    }
+
+    .footer-container{
+        max-width: 600px;
+    }
+
+    .right-col{
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .right-col .border {
+        opacity: 0;
+
+    }
+
+    .left-col{
+        width: 100%;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .left-col{
+        display: none;
+    }
+}
