@@ -61,7 +61,7 @@ body{
 .row{
     padding-bottom: 70px;
 }
-.col-sm-4{
+.col-lg-4{
     padding-top: 20px;
     display: flex;
     justify-content: center;
@@ -84,7 +84,7 @@ body{
     color: #e4e4e4;
 }
 .card-img-top{
-    height: 300px;
+    height: 350px;
 }
 
 /*Training program page*/
