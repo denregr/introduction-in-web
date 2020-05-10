@@ -159,7 +159,7 @@ section .content .hamonuser{
 
 /*Page 3 Sergei Story*/
 .body3Serg{
-    background: url("https://i2.yuki.la/9/dd/5c602b05edd1714e0a46bd4c0449402ad1382abb3d60970c5f525f798090fdd9.jpg") center no-repeat;
+    background: url("https://cdnb.artstation.com/p/assets/images/images/002/897/541/large/johannes-bohm-baroquestatues-screenshot-01.jpg?1467024831") center no-repeat;
     background-size: cover;
 }
 
@@ -174,10 +174,15 @@ section .content .hamonuser{
 
 .SeregaText{
     color: #f1f1f1;
+    background-color: rgba(0, 0, 0, 0.74);
+    padding: 20px;
+    margin-bottom: 30px;
 }
 @media screen and (max-width:960px) {
     .body3Serg{
-        background: url("https://i2.yuki.la/9/dd/5c602b05edd1714e0a46bd4c0449402ad1382abb3d60970c5f525f798090fdd9.jpg") left;
+        background: #000;
+        margin: 0;
+        padding: 0;
     }
 }
 
