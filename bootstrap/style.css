@@ -87,8 +87,6 @@ body{
     height: 350px;
 }
 
-/*Training program page*/
-
 /* CONTENT */
 .body2{
     background: url("images/bg2.jpg");
@@ -126,8 +124,7 @@ section:nth-child(2) .content h2 {
 }
 
 section:nth-child(1) .content a {
-    color: #fff;
-    border: 2px solid #fff;
+    color: #c5bdbd;
 }
 
 section:nth-child(1) {
@@ -190,6 +187,24 @@ section .content .hamonuser{
 .body4Anton{
     background: url("https://i.pinimg.com/736x/fe/d1/21/fed12176c808da71c375bbb1effa497f.jpg") center no-repeat;
     background-size: cover;
+}
+
+/*MAth*/
+.math{
+    color: #fff;
+    margin: 10px;
+}
+
+.accordion{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*SVG*/
+svg{
+    height: 300px;
+    width: 300px;
 }
 
 /* Footer */
