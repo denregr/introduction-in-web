@@ -65,6 +65,7 @@ body{
   left:0;
   top:0;
 }
+
 .row{
     padding-bottom: 70px;
 }
@@ -179,6 +180,7 @@ section .content .hamonuser{
     justify-content: center;
     align-items: center;
 }
+
 .gigaSerg{
     width: 700px;
 }
@@ -189,11 +191,15 @@ section .content .hamonuser{
     padding: 20px;
     margin-bottom: 30px;
 }
+
 @media screen and (max-width:960px) {
     .body3Serg{
         background: #000;
         margin: 0;
         padding: 0;
+    }
+    .sucsForm{
+        background: #000;
     }
 }
 
