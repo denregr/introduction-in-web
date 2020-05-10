@@ -67,11 +67,11 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .card{
     width: 18rem;
     background-color: black;
 }
-
 
 .card-body{
     background: black;
@@ -85,6 +85,13 @@ body{
 }
 .card-img-top{
     height: 350px;
+}
+
+.cards{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* CONTENT */
