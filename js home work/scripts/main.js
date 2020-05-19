@@ -49,22 +49,33 @@ container.appendChild(table);
 container.appendChild(negativeArray);
 container.appendChild(positiveArray);
 
-
+//array generator
 function matrixArray(rows,columns){
   var arr = [];
   for(var i=0; i<rows; i++){
     arr[i] = [];
     for(var j=0; j<columns; j++){
-      arr[i][j] = randomInteger(-10,10);//вместо i+j+1 пишем любой наполнитель. В простейшем случае - null
+      arr[i][j] = randomInteger(-10,10);
     }
   }
   return arr;
 }
 
+//random function
 function randomInteger(min, max) {
   let rand = min - 0.5 + Math.random() * (max - min + 1);
   return Math.round(rand);
 }
+
+function getArray(n) {
+  let arr = new Array(n)
+  for (let i = 0; i < n; i++) {
+      arr[i] = randomInteger(1,4)
+  }
+  return arr;
+}
+
+console.log(getArray(10).sort())
 
 function positiveNegativeArrays(matArr){
     let positiveArr = [];
