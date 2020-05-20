@@ -42,10 +42,13 @@ numbersButton.onclick = function () {
 
 //Third task --- Array in table
 let table = document.createElement('TABLE');
+let table2 = document.createElement('TABLE');
 let negativeArray = document.createElement('H2');
 let positiveArray = document.createElement('H2');
 let container = document.querySelector('.tableArray');
+let container2 = document.querySelector('.sankearray');
 container.appendChild(table);
+container2.appendChild(table2);
 container.appendChild(negativeArray);
 container.appendChild(positiveArray);
 
@@ -67,6 +70,7 @@ function randomInteger(min, max) {
   return Math.round(rand);
 }
 
+// n-size array
 function getArray(n) {
   let arr = new Array(n)
   for (let i = 0; i < n; i++) {
@@ -75,7 +79,33 @@ function getArray(n) {
   return arr;
 }
 
-console.log(getArray(10).sort())
+let c = 0;
+
+var mmmatrix = getArray(8).sort()
+for (let row = 0; row < 8; row++) {
+  if (row % 2 === 0) {
+      for (let i = 8 - 1; i >= 0; i--) {
+          aaa[i][row] = mmmatrix[c++];
+      }
+  } else {
+      for (let i = 0; i < 8; i++) {
+          aaa[i][row] = mmmatrix[c++];
+      }
+  }
+}
+console.log(aaa)
+
+// n-size array print in table
+for (let i = 0; i < aaa.length; i++) {
+  let tr2 = document.createElement('TR');
+  table2.appendChild(tr2); {
+    for (let j = 0; j < aaa[i].length; j++) {
+      let td2 = document.createElement('TD');
+      td2.innerHTML = aaa[i][j];
+      tr2.appendChild(td2)
+    }
+  }
+}
 
 function positiveNegativeArrays(matArr){
     let positiveArr = [];
@@ -96,7 +126,7 @@ function positiveNegativeArrays(matArr){
   return massStorage;
 }
 
-var myMatrix = matrixArray(3,3);
+var myMatrix = matrixArray(8,8);
 
 for (let i = 0; i < myMatrix.length; i++) {
   let tr = document.createElement('TR');
